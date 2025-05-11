@@ -87,6 +87,7 @@ export class ChatworkPlugin extends Plugin {
 
   // TODO: 処理が汚いのでどうにかしたい
   // TODO: メインの処理なのに単体テストがないのでどうにかしたい
+  // FIXME: 必要な設定項目が設定されていない場合のエラーハンドリングを実装する
   private async syncChatwork(): Promise<void> {
     if (
       this.app.vault.getFolderByPath(this.settings.notesFolderPath) === null
