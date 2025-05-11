@@ -1,0 +1,33 @@
+{
+  "name": "@sudame/obsidian-chatwork-plugin",
+  "description": "A community plugin for Obsidian that integrates with Chatwork.",
+  "version": "0.0.1",
+  "author": {
+    "name": "Mikihiro Suda",
+    "email": "suda.mikihiro@gmail.com",
+    "url": "https://sudame.net"
+  },
+  "license": "MIT",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "watch": "node esbuild.config.mjs",
+    "build": "node esbuild.config.mjs production"
+  },
+  "dependencies": {
+    "obsidian": "^1.8.7"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.26.0",
+    "@tsconfig/strictest": "^2.0.5",
+    "@types/node": "^22.15.17",
+    "esbuild": "^0.25.4",
+    "eslint": "^9.26.0",
+    "eslint-config-prettier": "^10.1.5",
+    "globals": "^16.1.0",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.32.0",
+    "vitest": "^3.1.3"
+  }
+}

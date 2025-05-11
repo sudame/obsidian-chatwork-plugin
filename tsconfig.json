@@ -1,0 +1,10 @@
+{
+  "extends": "@tsconfig/strictest",
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "esnext",
+    "moduleResolution": "bundler",
+    "noEmit": true,
+    "checkJs": false
+  }
+}
